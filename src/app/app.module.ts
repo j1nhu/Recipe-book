@@ -17,12 +17,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { RecipeService } from './recipes/recipe.service';
-<<<<<<< HEAD
-=======
-import {DataStorageService} from "./shared/data-storage.service";
-import { SignupComponent } from './auth/signup/signup.component';
-import { SigninComponent } from './auth/signin/signin.component';
->>>>>>> 087802a3ac261b63c7d52eb61eb5763968fd678e
 
 @NgModule({
   declarations: [
@@ -36,13 +30,7 @@ import { SigninComponent } from './auth/signin/signin.component';
     ShoppingEditComponent,
     DropdownDirective,
     RecipeStartComponent,
-<<<<<<< HEAD
     RecipeEditComponent
-=======
-    RecipeEditComponent,
-    SignupComponent,
-    SigninComponent
->>>>>>> 087802a3ac261b63c7d52eb61eb5763968fd678e
   ],
   imports: [
     BrowserModule,
@@ -51,11 +39,7 @@ import { SigninComponent } from './auth/signin/signin.component';
     HttpModule,
     AppRoutingModule
   ],
-<<<<<<< HEAD
   providers: [ShoppingListService, RecipeService],
-=======
-  providers: [ShoppingListService, RecipeService, DataStorageService],
->>>>>>> 087802a3ac261b63c7d52eb61eb5763968fd678e
   bootstrap: [AppComponent]
 })
 export class AppModule { }

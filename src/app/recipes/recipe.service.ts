@@ -33,14 +33,6 @@ export class RecipeService {
     return this.recipes.slice();
   }
 
-<<<<<<< HEAD
-=======
-  setRecipes(recipes: Recipe[]) {
-      this.recipes = recipes;
-      this.recipesChanged.next(recipes);
-  }
-
->>>>>>> 087802a3ac261b63c7d52eb61eb5763968fd678e
   getRecipe(index: number) {
     return this.recipes[index];
   }
@@ -59,11 +51,7 @@ export class RecipeService {
       this.recipesChanged.next(this.recipes.slice());
   }
 
-<<<<<<< HEAD
   deleteRecipe(index:number) {
-=======
-  deleteRecipe(index: number) {
->>>>>>> 087802a3ac261b63c7d52eb61eb5763968fd678e
     this.recipes.splice(index, 1);
     this.recipesChanged.next(this.recipes.slice());
   }
